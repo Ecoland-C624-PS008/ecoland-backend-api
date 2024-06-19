@@ -37,6 +37,9 @@ npm run dev
 | `/api/articles/:id` | Update Article | `/api/articles/65616bd5f02afdb3f4f95a01` |  PUT  |
 | `/api/articles/:id` | Delete Article | `/api/articles/65616bd5f02afdb3f4f95a01` |  DELETE  |
 
+---
+
+
 | Endpoint | Usage | Example | Method |
 |----------|-------|---------|----------|
 | `/lands` | Get lands data | - |  GET  |
@@ -45,6 +48,9 @@ npm run dev
 | `/lands-admin` | Post lands data by Admin | - |  POST   |
 | `/lands-admin/:id` | Update land data by Admin | `/lands-admin/824da653-8ae0-421a-a6da-8a098cd0e9a8` |   PATCH  |
 | `/lands-admin/:id` | Delete land data by Admin | `/lands-admin/824da653-8ae0-421a-a6da-8a098cd0e9a8` |  DELETE  |
+
+---
+
 
 | Endpoint | Usage | Example | Method |
 |----------|-------|---------|----------|
