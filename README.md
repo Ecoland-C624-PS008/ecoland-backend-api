@@ -51,5 +51,5 @@ npm run dev
 | `/users` | Get users by Admin | - |  GET  |
 | `/users/:id` | Get user by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |  GET   |
 | `/users` | Post users  | `/users` |  POST   |
-| `/users/:id` | Update lands data by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |  PATCH   |
-| `/users/:id` | Delete land data by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |   DELETE  |
+| `/users/:id` | Update user data by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |  PATCH   |
+| `/users/:id` | Delete user data by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |   DELETE  |
