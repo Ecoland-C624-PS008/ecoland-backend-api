@@ -27,6 +27,7 @@ npm run dev
 
 **Base Url** :  `https://ecoland-backend-api.onrender.com/`
 
+### Auth API
 | Endpoint | Usage | Example | Method |
 |----------|-------|---------|----------|
 | `/login` | Login user | - |  POST  |
@@ -39,7 +40,7 @@ npm run dev
 
 ---
 
-
+### Lands API
 | Endpoint | Usage | Example | Method |
 |----------|-------|---------|----------|
 | `/lands` | Get lands data | - |  GET  |
@@ -51,7 +52,7 @@ npm run dev
 
 ---
 
-
+### Users API
 | Endpoint | Usage | Example | Method |
 |----------|-------|---------|----------|
 | `/users` | Get users by Admin | - |  GET  |
@@ -59,3 +60,24 @@ npm run dev
 | `/users` | Post users  | `/users` |  POST   |
 | `/users/:id` | Update user data by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |  PATCH   |
 | `/users/:id` | Delete user data by id | `/users/4bfbd5b4-89d5-418c-a7d7-6df7add35abc` |   DELETE  |
+
+---
+
+### Transactions API
+| Endpoint | Usage | Example | Method |
+|----------|-------|---------|----------|
+| `/transactions` | Get transactions data | - |  GET  |
+| `/transactions/:id` | Get transaction by id | `/users/3ef82575-af80-4d05-a5c9-20bf9a08b4b3` |  GET   |
+| `/transactions` | Post transaction  | `/users` |  POST   |
+| `/transactions/:id` | Update transaction data by id | `/users/3ef82575-af80-4d05-a5c9-20bf9a08b4b3` |  PATCH   |
+| `/transactions/:id` | Delete transaction data by id | `/users/3ef82575-af80-4d05-a5c9-20bf9a08b4b3` |   DELETE  |
+
+---
+
+### History API
+| Endpoint | Usage | Example | Method |
+|----------|-------|---------|----------|
+| `/history/:id` | Get history sewa data by id | `/history/676fd1f1-bbbe-43df-a34d-89a3f3d461d8` |  GET   |
+
+
+#### EcoLand
